@@ -1,0 +1,116 @@
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* --- Header / Artist Roster --- */
+
+header {
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.artist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.artist-list li {
+  cursor: pointer;
+  padding: 8px 12px;
+  background: #eee;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.artist-list li:hover {
+  background: #ddd;
+}
+
+/* --- Main Layout --- */
+
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* --- Artist Detail --- */
+
+.artist-detail img {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.artist-detail h2 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.artist-detail .genre {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.artist-detail .blurb {
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* --- Song List --- */
+
+.songs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.songs li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.songs li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.songs li span:nth-child(2) {
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.songs li span:nth-child(3) {
+  color: #666;
+}

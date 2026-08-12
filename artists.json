@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Pinkfong",
+    "genre": "Children's music",
+    "photo": "images/pinkfong.jpeg",
+    "total": "11:31",
+    "blurb": "The children's music powerhouse behind the most-watched video on the internet. Short, loud, unbelievably sticky.",
+    "songs": [
+      {
+        "title": "Baby Shark",
+        "duration": "2:16",
+        "cover": "images/pinkfong.jpeg"
+      },
+      {
+        "title": "Wheels on the Bus",
+        "duration": "2:35",
+        "cover": "images/pinkfong.jpeg"
+      },
+      {
+        "title": "Five Little Monkeys",
+        "duration": "2:05",
+        "cover": "images/pinkfong.jpeg"
+      },
+      {
+        "title": "Monkey Banana",
+        "duration": "2:24",
+        "cover": "images/pinkfong.jpeg"
+      },
+      {
+        "title": "Shark Family",
+        "duration": "2:11",
+        "cover": "images/pinkfong.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Adriano Celentano",
+    "genre": "Italian pop",
+    "photo": "images/adriano-celentano.jpg",
+    "total": "20:52",
+    "blurb": "Sixty years of Italian pop in one voice: rock and roll imported, rewritten and sung back louder.",
+    "songs": [
+      {
+        "title": "Azzurro",
+        "duration": "3:41",
+        "cover": "images/adriano-celentano.jpg",
+        "lang": "it"
+      },
+      {
+        "title": "L'emozione non ha voce",
+        "duration": "4:13",
+        "cover": "images/adriano-celentano.jpg",
+        "lang": "it"
+      },
+      {
+        "title": "Il ragazzo della via Gluck",
+        "duration": "4:16",
+        "cover": "images/adriano-celentano.jpg",
+        "lang": "it"
+      },
+      {
+        "title": "Susanna",
+        "duration": "4:26",
+        "cover": "images/adriano-celentano.jpg",
+        "lang": "it"
+      },
+      {
+        "title": "Confessa",
+        "duration": "4:16",
+        "cover": "images/adriano-celentano.jpg",
+        "lang": "it"
+      }
+    ]
+  },
+  {
+    "name": "Asake",
+    "genre": "Afrobeats",
+    "photo": "images/asake.jpg",
+    "total": "14:08",
+    "blurb": "Amapiano log drums, fuji chants and street-Yoruba hooks. The loudest new voice out of Lagos.",
+    "songs": [
+      {
+        "title": "Sungba",
+        "duration": "2:47",
+        "cover": "images/asake-ololade.jpg"
+      },
+      {
+        "title": "Joha",
+        "duration": "2:35",
+        "cover": "images/asake-mr-money-with-the-vibe.jpg"
+      },
+      {
+        "title": "Jogodo",
+        "duration": "3:08",
+        "cover": "images/asake-real.jpg"
+      },
+      {
+        "title": "Amapiano",
+        "duration": "3:22",
+        "cover": "images/asake-work-of-art.jpg"
+      },
+      {
+        "title": "Lonely At The Top",
+        "duration": "2:16",
+        "cover": "images/asake-work-of-art.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Miyagi and Andy Panda",
+    "genre": "Hip-hop",
+    "photo": "images/miyagi-and-andy-panda.jpg",
+    "total": "16:21",
+    "blurb": "Two rappers from Vladikavkaz, half sung and half spoken, built on dub basslines and long reverbs.",
+    "songs": [
+      {
+        "title": "Kosandra",
+        "duration": "3:18",
+        "cover": "images/miyagi-kosandra.jpg"
+      },
+      {
+        "title": "Utopia",
+        "duration": "3:00",
+        "cover": "images/miyagi-yamakasi.jpg"
+      },
+      {
+        "title": "Minor",
+        "duration": "3:13",
+        "cover": "images/miyagi-yamakasi.jpg"
+      },
+      {
+        "title": "Saloon",
+        "duration": "2:46",
+        "cover": "images/miyagi-saloon.jpg"
+      },
+      {
+        "title": "I Got Love",
+        "duration": "4:04",
+        "cover": "images/miyagi-i-got-love.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Johnny Cash",
+    "genre": "Country",
+    "photo": "images/johnny-cash.jpg",
+    "total": "15:40",
+    "blurb": "The man in black. Three chords, the truth, and a baritone that outlasted every genre it was filed under.",
+    "songs": [
+      {
+        "title": "Hurt",
+        "duration": "3:36",
+        "cover": "images/johnny-cash.jpg"
+      },
+      {
+        "title": "Ring of Fire",
+        "duration": "2:38",
+        "cover": "images/johnny-cash.jpg"
+      },
+      {
+        "title": "Highwayman",
+        "duration": "3:03",
+        "cover": "images/johnny-cash.jpg"
+      },
+      {
+        "title": "God's Gonna Cut You Down",
+        "duration": "2:38",
+        "cover": "images/johnny-cash.jpg"
+      },
+      {
+        "title": "Ghost Riders in the Sky",
+        "duration": "3:45",
+        "cover": "images/johnny-cash.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Coldplay",
+    "genre": "Alternative Rock / Pop",
+    "photo": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg",
+    "total": "21:30",
+    "blurb": "British rock band formed in London, known for anthemic melodies and stadium-filling atmospheric pop.",
+    "songs": [
+      {
+        "title": "Yellow",
+        "duration": "4:29",
+        "cover": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg"
+      },
+      {
+        "title": "Viva La Vida",
+        "duration": "4:02",
+        "cover": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg"
+      },
+      {
+        "title": "Fix You",
+        "duration": "4:54",
+        "cover": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg"
+      },
+      {
+        "title": "The Scientist",
+        "duration": "5:09",
+        "cover": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg"
+      },
+      {
+        "title": "A Sky Full of Stars",
+        "duration": "4:28",
+        "cover": "https://mcdn.wallpapersafari.com/medium/91/14/faQKxC.jpg"
+      }
+    ]
+  }
+]
