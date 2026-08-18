@@ -38,6 +38,28 @@
         <ul></ul>
       </nav>
 
+      <!-- Step 6: Form to POST new artists -->
+      <form id="add-artist-form" class="add-artist-form">
+        <h2>Add New Artist</h2>
+        <label>
+          Name:
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Genre:
+          <input type="text" name="genre" required />
+        </label>
+        <label>
+          Photo URL:
+          <input type="url" name="photo" required />
+        </label>
+        <label>
+          Blurb:
+          <textarea name="blurb" required></textarea>
+        </label>
+        <button type="submit">Add Artist</button>
+      </form>
+
       <!-- Dynamic Container for JSON rendered cards -->
       <section id="artists-container" class="artists-list">
         <!-- JavaScript will insert artist cards here -->
