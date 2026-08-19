@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stretch Records</title>
+
+    <!-- Inter Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top Header Bar -->
+    <header class="top-bar">
+      <span class="logo">STRETCH RECORDS</span>
+    </header>
+
+    <main class="container">
+      <!-- Hero Header -->
+      <section class="hero">
+        <p class="subtitle">ARTISTS</p>
+        <h1 class="title">The whole roster.</h1>
+        <p class="description">
+          Children's music, Italian pop, Afrobeats, hip-hop and country. Every
+          artist on the label, with their five most-streamed songs and how long
+          each one runs.
+        </p>
+      </section>
+
+      <!-- Quick Navigation / Roster List -->
+      <nav class="artist-nav">
+        <ul></ul>
+      </nav>
+
+      <!-- Dynamic Container for JSON rendered cards -->
+      <section id="artists-container" class="artists-list">
+        <!-- JavaScript will insert artist cards here -->
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

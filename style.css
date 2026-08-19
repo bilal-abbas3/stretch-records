@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background-color: #f3f3f3;
+  color: #111;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.top-bar {
+  border-bottom: 1px solid #111;
+  padding: 12px 32px;
+  background-color: #f3f3f3;
+}
+
+.logo {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 40px 32px;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 15px;
+  color: #333;
+  max-width: 480px;
+  line-height: 1.5;
+}
+
+.artist-nav {
+  border-top: 1px solid #ddd;
+  margin-bottom: 60px;
+  position: relative;
+  width: 100vw;
+  margin-left: -32px;
+  padding: 0 32px;
+}
+
+.artist-nav::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #111;
+}
+
+.artist-nav ul {
+  list-style: none;
+}
+
+.artist-nav li {
+  border-bottom: 1px solid #ddd;
+}
+
+.artist-nav li:last-child {
+  border-bottom: none;
+}
+
+.artist-nav a {
+  display: block;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.artist-nav a:hover {
+  color: #555;
+}
+
+.artist-card {
+  border-top: 1px solid #ccc;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+
+.artist-card:first-of-type {
+  border-top: none;
+}
+
+.artist-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.artist-genre {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #d33c16;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.artist-name {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
+.artist-stats {
+  font-size: 11px;
+  font-weight: 700;
+  color: #777;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.artist-blurb {
+  font-size: 15px;
+  color: #222;
+  max-width: 520px;
+  margin-bottom: 32px;
+  line-height: 1.4;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.song-card {
+  background-color: #e8e8e8;
+  border: 1px solid #ddd;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.song-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 4px 2px;
+}
+
+.song-number-title {
+  display: flex;
+  gap: 6px;
+  font-weight: 700;
+  color: #111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.song-number {
+  color: #777;
+}
+
+.song-duration {
+  font-size: 11px;
+  color: #666;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+@media (max-width: 1024px) {
+  .songs-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .songs-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .title {
+    font-size: 38px;
+  }
+}
